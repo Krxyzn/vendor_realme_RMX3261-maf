@@ -5,7 +5,7 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX3261
 
-PRODUCT_COPY_FILES += \
+ODM_MANIFEST_FILES += \
     vendor/realme/RMX3261/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/realme/RMX3261/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
     vendor/realme/RMX3261/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
